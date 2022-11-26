@@ -69,7 +69,7 @@ function addLeadingZero (value) {
 const onClick = evt => {
 
     function start() {    
-        currentTime = new Date().getTime();
+        const currentTime = new Date().getTime();
         const ms = chosenTime - currentTime;
         
         if(currentTime > chosenTime) {
